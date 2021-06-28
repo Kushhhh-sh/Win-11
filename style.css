@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('bg.jpeg');
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+.taskbar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #f3f3f3;
+    z-index: 100;
+}
+
+.time{
+    position: absolute;
+    right: 0;
+    padding: 6px 0;
+    height: 74%;
+}
+
+.start{
+    position: absolute;
+    bottom: -655px;
+    width: 100%;
+    text-align: center;
+    transition: all 0.3s ease-in;
+}
+
+.start img{
+    border-radius: 8px;
+}
