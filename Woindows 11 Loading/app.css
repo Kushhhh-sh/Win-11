@@ -2,12 +2,12 @@ html{
     font-family: Roboto;
 }
 body{
-    background-color:#caf0f8;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 95vh;
-    background: linear-gradient(90deg, #515ada 0%,  #efd5ff 100%);
+    background: rgb(0,168,170);
+    background: radial-gradient(circle, rgba(0,168,170,1) 0%, rgba(15,178,155,1) 22%, rgba(0,255,34,1) 100%);
 }
 .main{
     background-color: white;
