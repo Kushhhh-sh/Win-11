@@ -67,7 +67,14 @@ body{
 .iconname {
 
     padding-left: 7px;
+    /* font-size: 20px; */
+    text-shadow: 3px 1px 3px black;
+    /* -webkit-text-stroke: 1px black; */
 }
 .edge{
-    padding-left: 13px;
+    padding-left: 16px;
+    text-shadow: 3px 1px 3px black;
+}
+.recycle{
+    text-shadow: 3px 1px 3px black;
 }
