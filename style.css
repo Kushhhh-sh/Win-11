@@ -48,7 +48,7 @@ body{
     height: 90%;
     width: 10%;
     display: inline-block;
-    color: #fff;
+    color: rgb(34, 63, 63);
 }
 .figureicons {
     height: 50%;
@@ -60,21 +60,26 @@ body{
     width: 40px;
     height: 40px;
     margin-top: 15px;
-    padding-left: 15px;
+    padding-left: 22px;
     display: inline-block;
 }
 
 .iconname {
 
-    padding-left: 7px;
+    padding-left: 15px;
     /* font-size: 20px; */
-    text-shadow: 3px 1px 3px black;
+    text-shadow: 3px 1px 3px rgb(255, 255, 255);
+    font-weight: 900;
     /* -webkit-text-stroke: 1px black; */
 }
 .edge{
-    padding-left: 16px;
-    text-shadow: 3px 1px 3px black;
+    padding-left: 24px;
+    /* text-shadow: 3px 1px 3px black; */
 }
 .recycle{
-    text-shadow: 3px 1px 3px black;
+    padding-left: 7px; 
+    /* text-shadow: 3px 1px 3px black; */
+}
+.credits {
+    padding-left: 18px;
 }
