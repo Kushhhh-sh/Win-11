@@ -71,6 +71,7 @@ body{
     margin-top: 15px;
     padding-left: 22px;
     display: inline-block;
+    box-sizing: content-box;
 }
 .col2 {
     width: 45px;
@@ -78,9 +79,10 @@ body{
     margin-top: 15px;
     padding-left: 22px;
     display: inline-block;
+    box-sizing: content-box;
 }
 .iconname {
-
+    margin-bottom: 5px;
     padding-left: 15px;
     text-shadow: 3px 1px 3px rgb(255, 255, 255);
     font-weight: 900;
