@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: Roboto;
+    /* DISABLING SELECTION */
     -webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */
     -khtml-user-select: none; /* Konqueror HTML */
@@ -17,6 +18,8 @@ body{
     overflow: hidden;
     height: 100vh;
 }
+
+/* ******************TASKBAR CSS START****************** */
 .taskbar{
     position: absolute;
     bottom: 0;
@@ -31,7 +34,9 @@ body{
     position: absolute;
     right: 0;
 }
+/* ***********************TASKBAR CSS END*********************** */
 
+/* ***********************STARTMENU CSS START*********************** */
 .start{
     position: absolute;
     bottom: -655px;
@@ -43,7 +48,9 @@ body{
 .start img{
     border-radius: 8px;
 }
+/* **************************STARTMENU CSS END************************** */
 
+/* *******************DESKTOP ICONS CSS START******************* */
 .divicons {
     height: 90%;
     width: 10%;
@@ -67,19 +74,16 @@ body{
 .iconname {
 
     padding-left: 15px;
-    /* font-size: 20px; */
     text-shadow: 3px 1px 3px rgb(255, 255, 255);
     font-weight: 900;
-    /* -webkit-text-stroke: 1px black; */
 }
 .edge{
     padding-left: 24px;
-    /* text-shadow: 3px 1px 3px black; */
 }
 .recycle{
     padding-left: 7px; 
-    /* text-shadow: 3px 1px 3px black; */
 }
 .credits {
     padding-left: 18px;
 }
+/* *****************DESKTOP ICONS CSS END***************** */
