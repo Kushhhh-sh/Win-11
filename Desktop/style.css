@@ -48,20 +48,29 @@ body{
 /* **************************STARTMENU CSS END************************** */
 
 /* *******************DESKTOP ICONS CSS START******************* */
-.divicons {
+.divicons1 {
     height: 90%;
-    width: 10%;
+    width: 7%;
     display: inline-block;
     color: rgb(34, 63, 63);
 }
-.figureicons {
-    height: 50%;
-    width: 70%;
-    margin-left: 5px;
-    align-items: center;
+.divicons2 {
+    position: absolute;
+    top: 0;
+    height: 90%;
+    width: 6%;
+    display: inline-block;
+    color: rgb(34, 63, 63);
 }
-.iconsimage {
+.col1 {
     width: 40px;
+    height: 40px;
+    margin-top: 15px;
+    padding-left: 22px;
+    display: inline-block;
+}
+.col2 {
+    width: 45px;
     height: 40px;
     margin-top: 15px;
     padding-left: 22px;
@@ -81,5 +90,17 @@ body{
 }
 .credits {
     padding-left: 18px;
+}
+.word{
+    padding-left: 25px;
+}
+.paint{
+    padding-left: 20px;
+}
+.excel{
+    padding-left: 25px;
+}
+.powerpoint{
+    padding-left: 2px;
 }
 /* *****************DESKTOP ICONS CSS END***************** */
