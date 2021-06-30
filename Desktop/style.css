@@ -32,6 +32,9 @@ body{
     position: absolute;
     right: 0;
 }
+.start_icon{
+    cursor:pointer;
+}
 /* ***********************TASKBAR CSS END*********************** */
 
 /* ***********************STARTMENU CSS START*********************** */
