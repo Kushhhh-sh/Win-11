@@ -11,7 +11,6 @@
     user-select: none; /* Non-prefixed version, currently
                             supported by Chrome and Opera */
 }
-
 body{
     background-image: url('bg_light.jpg');
     background-size: cover;
@@ -29,7 +28,6 @@ body{
     background-color: #f3f3f3;
     z-index: 100;
 }
-
 .time{
     position: absolute;
     right: 0;
@@ -44,7 +42,6 @@ body{
     text-align: center;
     transition: all 0.3s ease-in;
 }
-
 .start img{
     border-radius: 8px;
 }
@@ -70,7 +67,6 @@ body{
     padding-left: 22px;
     display: inline-block;
 }
-
 .iconname {
 
     padding-left: 15px;
