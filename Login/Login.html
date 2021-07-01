@@ -19,6 +19,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <title>Log In</title>
 </head>
 
@@ -36,12 +37,20 @@
                         placeholder="Username">
                 </div>
 
+
             </div>
             <div class="col-12">
-                <a href="../Desktop/index.html"><button class="btn btn-primary">Next</button></a>
+                <a href="../Desktop/index.html"><button class="btn btn-primary" id="Next">Next</button></a>
             </div>
         </div>
     </div>
 </body>
 
+<script> 
+    $("#formGroupExampleInput").keypress(function(event) {
+        if (event.keyCode === 13) {
+            $("#Next").click();
+        }
+    });
+</script>
 </html>
