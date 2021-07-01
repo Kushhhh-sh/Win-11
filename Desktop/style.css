@@ -166,42 +166,44 @@ body{
     position: absolute;
     top: 10px;
     left: 200px;
-    display: none;
+    /* display: none; */
   }
   #noteframe{
     position: absolute;
     top: 65px;
     left: 255px;
-    display: none;
+    /* display: none; */
   }
   #paintframe{
     position: absolute;
-    top: 230px;
-    left: 420px;
-    display: none;
+    top: 120px;
+    left: 310px;
+    /* display: none; */
   }  
   #wordframe{
     position: absolute;
-    top: 120px;
-    left: 310px;
-    display: none;
+    top: 175px;
+    left: 365px;
+    /* display: none; */
   }
   #excelframe{
     position: absolute;
-    top: 175px;
-    left: 365px;
-    display: none;
+    top: 230px;
+    left: 420px;
+    /* display: none; */
   }
 
   #pptframe{
     position: absolute;
     top: 175px;
     left: 475px;
-    display: none;
+    /* display: none; */
   }
   #calciframe{
     position: absolute;
     top: 120px;
     left: 530px;
-    display: none;
+    /* display: none; */
   }
+/* 
+ */
