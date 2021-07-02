@@ -1,81 +1,81 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Roboto;
-    /* DISABLING SELECTION */
-    -webkit-touch-callout: none; /*iOS Safari*/
-    -webkit-user-select: none; /*Safari*/
-    -khtml-user-select: none; /*Konqueror HTML*/
-    -moz-user-select: none; /*Firefox*/
-    -ms-user-select: none; /*Internet Explorer/Edge*/
-     user-select: none; /* Non-prefixed version, currently 
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Roboto;
+  /* DISABLING SELECTION */
+  -webkit-touch-callout: none; /*iOS Safari*/
+  -webkit-user-select: none; /*Safari*/
+  -khtml-user-select: none; /*Konqueror HTML*/
+  -moz-user-select: none; /*Firefox*/
+  -ms-user-select: none; /*Internet Explorer/Edge*/
+  user-select: none; /* Non-prefixed version, currently 
                             supported by Chrome and Opera */
 }
-body{
-    background-image: url('bg_light.jpg');
-    background-size: cover;
-    overflow: hidden;
-    height: 100vh;
+body {
+  background-image: url("bg_light.jpg");
+  background-size: cover;
+  overflow: hidden;
+  height: 100vh;
 }
 
 /* ******************TASKBAR CSS START****************** */
-.taskbar{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: #f3f3f3;
-    z-index: 100;
+.taskbar {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: #f3f3f3;
+  z-index: 100;
 }
-.taskbar img{
+.taskbar img {
   cursor: pointer;
 }
-.time{
-    position: absolute;
-    right: 0;
+.time {
+  position: absolute;
+  right: 0;
 }
-#tb-edge{
+#tb-edge {
   display: none;
   /* box-sizing: content-box;
   border-bottom: 4px solid blue; */
 }
-#tb-calci{
+#tb-calci {
   height: 25px;
   width: 25px;
   margin-top: 10px;
   margin-left: 5px;
   display: none;
 }
-#tb-note{
+#tb-note {
   height: 30px;
   width: 30px;
   margin-top: 7.5px;
   margin-left: 15px;
   display: none;
 }
-#tb-paint{
+#tb-paint {
   height: 30px;
   width: 30px;
   margin-top: 7.5px;
   margin-left: 15px;
   display: none;
 }
-#tb-word{
+#tb-word {
   height: 30px;
   width: 30px;
   margin-top: 7.5px;
   margin-left: 15px;
   display: none;
 }
-#tb-excel{
+#tb-excel {
   height: 30px;
   width: 30px;
   margin-top: 7.5px;
   margin-left: 15px;
   display: none;
 }
-#tb-ppt{
+#tb-ppt {
   height: 30px;
   width: 30px;
   margin-top: 7.5px;
@@ -85,185 +85,183 @@ body{
 /* ***********************TASKBAR CSS END*********************** */
 
 /* ***********************STARTMENU CSS START*********************** */
-.start{
-    position: absolute;
-    bottom: -655px;
-    width: 100%;
-    text-align: center;
-    transition: all 0.3s ease-in;
+.start {
+  position: absolute;
+  bottom: -655px;
+  width: 100%;
+  text-align: center;
+  transition: all 0.3s ease-in;
 }
-.start img{
-    border-radius: 8px;
+.start img {
+  border-radius: 8px;
 }
 /* **************************STARTMENU CSS END************************** */
 
 /* *******************DESKTOP ICONS CSS START******************* */
 .divicons1 {
-    height: 90%;
-    width: 7%;
-    display: inline-block;
-    color: rgb(34, 63, 63);
+  height: 90%;
+  width: 7%;
+  display: inline-block;
+  color: rgb(34, 63, 63);
 }
 .divicons2 {
-    position: absolute;
-    top: 0;
-    height: 90%;
-    width: 6%;
-    display: inline-block;
-    color: rgb(34, 63, 63);
+  position: absolute;
+  top: 0;
+  height: 90%;
+  width: 6%;
+  display: inline-block;
+  color: rgb(34, 63, 63);
 }
-.divicons1 img{
+.divicons1 img {
   cursor: pointer;
 }
-.divicons1 p{
+.divicons1 p {
   cursor: pointer;
 }
-.divicons2 img{
+.divicons2 img {
   cursor: pointer;
 }
-.divicons2 p{
+.divicons2 p {
   cursor: pointer;
 }
 .col1 {
-    width: 40px;
-    height: 40px;
-    margin-top: 15px;
-    padding-left: 22px;
-    display: inline-block;
-    box-sizing: content-box;
+  width: 40px;
+  height: 40px;
+  margin-top: 15px;
+  padding-left: 22px;
+  display: inline-block;
+  box-sizing: content-box;
 }
 .col2 {
-    width: 45px;
-    height: 40px;
-    margin-top: 15px;
-    padding-left: 22px;
-    display: inline-block;
-    box-sizing: content-box;
+  width: 45px;
+  height: 40px;
+  margin-top: 15px;
+  padding-left: 22px;
+  display: inline-block;
+  box-sizing: content-box;
 }
 .iconname {
-    margin-bottom: 5px;
-    padding-left: 15px;
-    color: #fff;
-    text-shadow: 3px 1px 3px rgb(70, 69, 69);
-    font-weight: 400;
+  margin-bottom: 5px;
+  padding-left: 15px;
+  color: #fff;
+  text-shadow: 3px 1px 3px rgb(70, 69, 69);
+  font-weight: 400;
 }
-.edge{
-    padding-left: 24px;
+.edge {
+  padding-left: 24px;
 }
-.recycle{
-    padding-left: 7px; 
+.recycle {
+  padding-left: 7px;
 }
 .credits {
-    padding-left: 18px;
+  padding-left: 18px;
 }
-.word{
-    padding-left: 25px;
+.word {
+  padding-left: 25px;
 }
-.paint{
-    padding-left: 20px;
+.paint {
+  padding-left: 20px;
 }
-.excel{
-    padding-left: 25px;
+.excel {
+  padding-left: 25px;
 }
-.powerpoint{
-    padding-left: 2px;
+.powerpoint {
+  padding-left: 2px;
 }
 /* *****************DESKTOP ICONS CSS END***************** */
 
-
 /* *******************IFRAME CSS START******************* */
 
-.resizable{
-    background-color: #dee2e6;
-    width: 800px;
-    height: 450px;
-    min-width: 300px;
-    min-height: 300px;
-    border-radius: 8px;
-  }
-  
-  .name{
-    width: 100%;
-    height: 45px;
-    display: flex;
-    align-items: center;
-  }
-  .frame{
-    width: 100%;
-    height: 95%;
-    overflow: hidden;
-    border-radius: 0 0 8px 8px;
-  }
-  .frame iframe{
-    width: 100%;
-    height: 100%;
-  }
-  .name img{
-    width: 30px;
-    height: 30px;
-    margin-left: 10px;
-  }
-  .name h6{
-    margin-bottom: 0;
-    margin-left: 10px;
-  }
-  
-  .titlebar{
-    display: flex;
-    justify-content: space-between;
-  }
-  .close{
-    width: 30px;
-    height: 30px;
-    margin-top: 7.5px;
-    margin-right: 7.5px;
-    cursor: pointer;
-  }
+.resizable {
+  background-color: #dee2e6;
+  width: 800px;
+  height: 450px;
+  min-width: 300px;
+  min-height: 300px;
+  border-radius: 8px;
+}
+
+.name {
+  width: 100%;
+  height: 45px;
+  display: flex;
+  align-items: center;
+}
+.frame {
+  width: 100%;
+  height: 95%;
+  overflow: hidden;
+  border-radius: 0 0 8px 8px;
+}
+.frame iframe {
+  width: 100%;
+  height: 100%;
+}
+.name img {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+}
+.name h6 {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+.titlebar {
+  display: flex;
+  justify-content: space-between;
+}
+.close {
+  width: 30px;
+  height: 30px;
+  margin-top: 7.5px;
+  margin-right: 7.5px;
+  cursor: pointer;
+}
 /* *******************IFRAME CSS END******************* */
 
-/* *********************CSS FOR APP FRAMES********************* */
-  #edgeframe{
-    position: absolute;
-    top: 10px;
-    left: 200px;
-    display: none;
-  }
-  #noteframe{
-    position: absolute;
-    top: 65px;
-    left: 255px;
-    display: none;
-  }
-  #paintframe{
-    position: absolute;
-    top: 120px;
-    left: 310px;
-    display: none;
-  }  
-  #wordframe{
-    position: absolute;
-    top: 175px;
-    left: 365px;
-    display: none;
-  }
-  #excelframe{
-    position: absolute;
-    top: 230px;
-    left: 420px;
-    display: none;
-  }
+/* *********************CSS FOR APP FRAMES START********************* */
+#edgeframe {
+  position:absolute;
+  top: 10px;
+  left: 200px;
+  display: none;
+}
+#noteframe {
+  position: absolute;
+  top: 65px;
+  left: 255px;
+  display: none;
+}
+#paintframe {
+  position: absolute;
+  top: 120px;
+  left: 310px;
+  display: none;
+}
+#wordframe {
+  position: absolute;
+  top: 175px;
+  left: 365px;
+  display: none;
+}
+#excelframe {
+  position: absolute;
+  top: 230px;
+  left: 420px;
+  display: none;
+}
 
-  #pptframe{
-    position: absolute;
-    top: 175px;
-    left: 475px;
-    display: none;
-  }
-  #calciframe{
-    position: absolute;
-    top: 120px;
-    left: 530px;
-    display: none;
-  }
-/* 
- */
+#pptframe {
+  position: absolute;
+  top: 175px;
+  left: 475px;
+  display: none;
+}
+#calciframe {
+  position: absolute;
+  top: 120px;
+  left: 530px;
+  display: none;
+}
+/* *********************CSS FOR APP FRAMES END********************* */
