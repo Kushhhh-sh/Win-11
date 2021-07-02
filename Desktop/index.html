@@ -61,8 +61,8 @@
             data-bs-toggle="tooltip" data-bs-placement="right">
         <p class="iconname powerpoint">PowerPoint</p>
         <!-- *************************CALCULATOR************************* -->
-        <img src="../Images/Calculator.png" class="col2" draggable="false" title="Calculator"
-            data-bs-toggle="tooltip" data-bs-placement="right">
+        <img src="../Images/Calculator.png" class="col2" draggable="false" title="Calculator" data-bs-toggle="tooltip"
+            data-bs-placement="right">
         <p class="iconname powerpoint">Calculator</p>
     </div>
     <!-- ************************DESKTOP ICONS************************ -->
@@ -79,11 +79,23 @@
         <img src="../Images/taskview_icon.png" alt="" class="icon" draggable="false" title="Taskview"
             data-bs-toggle="tooltip" data-bs-placement="top">
         <img src="../Images/ms_edge_icon.png" alt="" class="icon" draggable="false" title="Microsoft Edge"
-            data-bs-toggle="tooltip" data-bs-placement="top">
+            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-edge">
         <img src="../Images/vs_code_icon.png" alt="" class="icon" draggable="false" title="VS Code"
             data-bs-toggle="tooltip" data-bs-placement="top">
         <img src="../Images/ms_store_icon.png" alt="" class="icon" draggable="false" title="Microsoft Store"
             data-bs-toggle="tooltip" data-bs-placement="top">
+        <img src="../Images/Calculator.png" alt="" class="icon" draggable="false" title="Calculator"
+            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-calci">
+        <img src="../Images/notepad.png" alt="" class="icon" draggable="false" title="Notepad" data-bs-toggle="tooltip"
+            data-bs-placement="top" id="tb-note">
+        <img src="../Images/ms_paint.png" alt="" class="icon" draggable="false" title="MS Paint" data-bs-toggle="tooltip"
+            data-bs-placement="top" id="tb-paint">
+        <img src="../Images/ms_word.png" alt="" class="icon" draggable="false" title="MS Word"
+            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-word">
+        <img src="../Images/ms_excel.png" alt="" class="icon" draggable="false" title="MS Excel"
+            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-excel">
+        <img src="../Images/ms_powerppoint.png" alt="" class="icon" draggable="false" title="MS PowerPoint"
+            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-ppt">
         <img class="time" src="../Images/taskbarright.PNG" alt="" draggable="false">
     </div>
     <!-- ***************************TASKBAR*************************** -->
@@ -106,11 +118,11 @@
         <div class="titlebar">
             <div class="name">
                 <img src="../Images/edgeicon.png" alt="">
-                <h6>Microsoft Edge</h4> 
+                <h6>Microsoft Edge</h4>
             </div>
             <img src="../Images/close.png" alt="" class="close">
         </div>
-        
+
         <div class="frame">
             <iframe src="https://www.bing.com" frameborder="0"></iframe>
         </div>
@@ -122,11 +134,11 @@
         <div class="titlebar">
             <div class="name">
                 <img src="../Images/notepad.png" alt="">
-                <h6>Notepad</h6> 
+                <h6>Notepad</h6>
             </div>
             <img src="../Images/close.png" alt="" class="close">
         </div>
-        
+
         <div class="frame">
             <iframe src="https://www.rapidtables.com/tools/notepad.html" frameborder="0"></iframe>
         </div>
@@ -138,46 +150,48 @@
         <div class="titlebar">
             <div class="name">
                 <img src="../Images/ms_paint.png" alt="">
-                <h6>Paint</h6> 
+                <h6>Paint</h6>
             </div>
             <img src="../Images/close.png" alt="" class="close">
         </div>
-        
+
         <div class="frame">
             <iframe src="https://jspaint.app/" frameborder="0"></iframe>
         </div>
     </div>
     <!-- *****************PAINT IFRAME***************** -->
-        
 
     <!-- *****************WORD IFRAME***************** -->
     <div class="resizable" id="wordframe">
         <div class="titlebar">
             <div class="name">
                 <img src="../Images/ms_word.png" alt="">
-                <h6>Google Docs</h6> 
+                <h6>Google Docs</h6>
             </div>
             <img src="../Images/close.png" alt="" class="close">
         </div>
-        
+
         <div class="frame">
-            <iframe src="https://docs.google.com/document/d/1ClqBTyFlqdYuH8KdDYjxyXQWNlW_rp8jq3K6YyFOUaI/edit?usp=sharing"></iframe>
+            <iframe
+                src="https://docs.google.com/document/d/1ClqBTyFlqdYuH8KdDYjxyXQWNlW_rp8jq3K6YyFOUaI/edit?usp=sharing"></iframe>
         </div>
     </div>
     <!-- *****************WORD IFRAME***************** -->
 
     <!-- *****************SHEETS IFRAME***************** -->
+
     <div class="resizable" id="excelframe">
         <div class="titlebar">
             <div class="name">
                 <img src="../Images/ms_excel.png" alt="">
-                <h6>Google Sheets</h6> 
+                <h6>Google Sheets</h6>
             </div>
             <img src="../Images/close.png" alt="" class="close">
         </div>
-        
+
         <div class="frame">
-            <iframe src="https://docs.google.com/spreadsheets/d/1SgpRRpTceF-E8s-0gnP_yWB5gOyyp9DxFQVka2yP7fY/edit#gid=0" frameborder="0"></iframe>
+            <iframe src="https://docs.google.com/spreadsheets/d/1SgpRRpTceF-E8s-0gnP_yWB5gOyyp9DxFQVka2yP7fY/edit#gid=0"
+                frameborder="0"></iframe>
         </div>
     </div>
     <!-- *****************SHEETS IFRAME***************** -->
@@ -187,13 +201,15 @@
         <div class="titlebar">
             <div class="name">
                 <img src="../Images/ms_powerppoint.png" alt="">
-                <h6>Google Slides</h6> 
+                <h6>Google Slides</h6>
             </div>
             <img src="../Images/close.png" alt="" class="close">
         </div>
-        
+
         <div class="frame">
-            <iframe src="https://docs.google.com/presentation/d/1RG_dcnHK3uagzbWPQ2DRRQah25Wlik1gBsvOVsIYx0A/edit#slide=id.p" frameborder="0"></iframe>
+            <iframe
+                src="https://docs.google.com/presentation/d/1RG_dcnHK3uagzbWPQ2DRRQah25Wlik1gBsvOVsIYx0A/edit#slide=id.p"
+                frameborder="0"></iframe>
         </div>
     </div>
     <!-- *****************POWERPOINT IFRAME***************** -->
@@ -203,11 +219,11 @@
         <div class="titlebar">
             <div class="name">
                 <img src="../Images/Calculator.png" alt="">
-                <h6>Cyber Calculator</h6> 
+                <h6>Cyber Calculator</h6>
             </div>
             <img src="../Images/close.png" alt="" class="close">
         </div>
-        
+
         <div class="frame">
             <iframe src="https://replit.com/@SumeMonty/Cyber-Calculator?lite=1&outputonly=1" frameborder="0"></iframe>
         </div>
