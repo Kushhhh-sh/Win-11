@@ -28,12 +28,12 @@ body{
     background-color: #f3f3f3;
     z-index: 100;
 }
+.taskbar img{
+  cursor: pointer;
+}
 .time{
     position: absolute;
     right: 0;
-}
-.start_icon{
-    cursor:pointer;
 }
 #tb-edge{
   display: none;
@@ -111,6 +111,18 @@ body{
     width: 6%;
     display: inline-block;
     color: rgb(34, 63, 63);
+}
+.divicons1 img{
+  cursor: pointer;
+}
+.divicons1 p{
+  cursor: pointer;
+}
+.divicons2 img{
+  cursor: pointer;
+}
+.divicons2 p{
+  cursor: pointer;
 }
 .col1 {
     width: 40px;
@@ -205,6 +217,7 @@ body{
     height: 30px;
     margin-top: 7.5px;
     margin-right: 7.5px;
+    cursor: pointer;
   }
 /* *******************IFRAME CSS END******************* */
 

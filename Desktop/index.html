@@ -32,15 +32,15 @@
         <p class=" iconname recycle">Recycle Bin</p>
         <!-- **********************EDGE********************** -->
         <img src="../Images/edgeicon.png" class="col1" draggable="false" title="Microsoft Edge" data-bs-toggle="tooltip"
-            data-bs-placement="right">
+            data-bs-placement="right" onclick="openedge()">
         <p class=" iconname edge">Edge</p>
         <!-- *************************NOTEPAD************************* -->
         <img src="../Images/notepad.png" class="col1" draggable="false" title="Notepad" data-bs-toggle="tooltip"
-            data-bs-placement="right">
+            data-bs-placement="right" onclick="opennote()">
         <p class="iconname  notepad">Notepad</p>
         <!-- *************************MS PAINT************************* -->
         <img src="../Images/ms_paint.png" class="col1" draggable="false" title="MS Paint" data-bs-toggle="tooltip"
-            data-bs-placement="right">
+            data-bs-placement="right" onclick="openpaint()">
         <p class="iconname  paint">Paint</p>
         <!-- *************************CREDITS************************* -->
         <a href="../Credits/index.html" target="_blank"><img src="../Images/puzzle.png" class="col1" draggable="false"
@@ -50,19 +50,19 @@
     <div class="divicons2">
         <!-- *************************MS WORD************************* -->
         <img src="../Images/ms_word.png" class="col2" draggable="false" title="MS Word" data-bs-toggle="tooltip"
-            data-bs-placement="right">
+            data-bs-placement="right" onclick="openword()">
         <p class="iconname word">Word</p>
         <!-- *************************MS EXCEL************************* -->
         <img src="../Images/ms_excel.png" class="col2" draggable="false" title="MS Excel" data-bs-toggle="tooltip"
-            data-bs-placement="right">
+            data-bs-placement="right" onclick="openexcel()">
         <p class="iconname excel">Excel</p>
         <!-- *************************MS POWERPOINT************************* -->
         <img src="../Images/ms_powerppoint.png" class="col2" draggable="false" title="MS PowerPoint"
-            data-bs-toggle="tooltip" data-bs-placement="right">
+            data-bs-toggle="tooltip" data-bs-placement="right" onclick="openppt()">
         <p class="iconname powerpoint">PowerPoint</p>
         <!-- *************************CALCULATOR************************* -->
         <img src="../Images/Calculator.png" class="col2" draggable="false" title="Calculator" data-bs-toggle="tooltip"
-            data-bs-placement="right">
+            data-bs-placement="right" onclick="opencalci()">
         <p class="iconname powerpoint">Calculator</p>
     </div>
     <!-- ************************DESKTOP ICONS************************ -->
@@ -73,29 +73,42 @@
     <div class="taskbar">
         <img src="../Images/start_icon.png" alt="" class="start_icon" draggable="false" title="Start"
             data-bs-toggle="tooltip" data-bs-placement="top">
+
         <img src="../Images/search_icon.png" alt="" class="icon" draggable="false" title="Search"
             data-bs-toggle="tooltip" data-bs-placement="top">
+
         <img src="../Images/icon_3.png" alt="" class="icon" draggable="false">
+
         <img src="../Images/taskview_icon.png" alt="" class="icon" draggable="false" title="Taskview"
             data-bs-toggle="tooltip" data-bs-placement="top">
+
         <img src="../Images/ms_edge_icon.png" alt="" class="icon" draggable="false" title="Microsoft Edge"
-            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-edge">
+            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-edge" onclick="openedge()">
+
         <img src="../Images/vs_code_icon.png" alt="" class="icon" draggable="false" title="VS Code"
             data-bs-toggle="tooltip" data-bs-placement="top">
+
         <img src="../Images/ms_store_icon.png" alt="" class="icon" draggable="false" title="Microsoft Store"
             data-bs-toggle="tooltip" data-bs-placement="top">
+
         <img src="../Images/Calculator.png" alt="" class="icon" draggable="false" title="Calculator"
-            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-calci">
+            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-calci" onclick="opencalci()">
+
         <img src="../Images/notepad.png" alt="" class="icon" draggable="false" title="Notepad" data-bs-toggle="tooltip"
-            data-bs-placement="top" id="tb-note">
+            data-bs-placement="top" id="tb-note" onclick="opennote()">
+
         <img src="../Images/ms_paint.png" alt="" class="icon" draggable="false" title="MS Paint" data-bs-toggle="tooltip"
-            data-bs-placement="top" id="tb-paint">
+            data-bs-placement="top" id="tb-paint" onclick="openpaint()">
+
         <img src="../Images/ms_word.png" alt="" class="icon" draggable="false" title="MS Word"
-            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-word">
+            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-word" onclick="openword()">
+
         <img src="../Images/ms_excel.png" alt="" class="icon" draggable="false" title="MS Excel"
-            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-excel">
+            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-excel" onclick="openexcel()">
+
         <img src="../Images/ms_powerppoint.png" alt="" class="icon" draggable="false" title="MS PowerPoint"
-            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-ppt">
+            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-ppt" onclick="openppt()">
+
         <img class="time" src="../Images/taskbarright.PNG" alt="" draggable="false">
     </div>
     <!-- ***************************TASKBAR*************************** -->
@@ -120,7 +133,7 @@
                 <img src="../Images/edgeicon.png" alt="">
                 <h6>Microsoft Edge</h4>
             </div>
-            <img src="../Images/close.png" alt="" class="close">
+            <img src="../Images/close.png" alt="" class="close" onclick="openedge()">
         </div>
 
         <div class="frame">
@@ -136,7 +149,7 @@
                 <img src="../Images/notepad.png" alt="">
                 <h6>Notepad</h6>
             </div>
-            <img src="../Images/close.png" alt="" class="close">
+            <img src="../Images/close.png" alt="" class="close" onclick="opennote()">
         </div>
 
         <div class="frame">
@@ -152,7 +165,7 @@
                 <img src="../Images/ms_paint.png" alt="">
                 <h6>Paint</h6>
             </div>
-            <img src="../Images/close.png" alt="" class="close">
+            <img src="../Images/close.png" alt="" class="close" onclick="openpaint()">
         </div>
 
         <div class="frame">
@@ -168,7 +181,7 @@
                 <img src="../Images/ms_word.png" alt="">
                 <h6>Google Docs</h6>
             </div>
-            <img src="../Images/close.png" alt="" class="close">
+            <img src="../Images/close.png" alt="" class="close" onclick="openword()">
         </div>
 
         <div class="frame">
@@ -186,11 +199,11 @@
                 <img src="../Images/ms_excel.png" alt="">
                 <h6>Google Sheets</h6>
             </div>
-            <img src="../Images/close.png" alt="" class="close">
+            <img src="../Images/close.png" alt="" class="close" onclick="openexcel()">
         </div>
 
         <div class="frame">
-            <iframe src="https://docs.google.com/spreadsheets/d/1SgpRRpTceF-E8s-0gnP_yWB5gOyyp9DxFQVka2yP7fY/edit#gid=0"
+            <iframe src="https://docs.google.com/spreadsheets/d/1ixdxXiVFnPWDCyvK9sSS4pY6P43mn7RMMoDMqO94MLA/edit?usp=sharing"
                 frameborder="0"></iframe>
         </div>
     </div>
@@ -203,12 +216,12 @@
                 <img src="../Images/ms_powerppoint.png" alt="">
                 <h6>Google Slides</h6>
             </div>
-            <img src="../Images/close.png" alt="" class="close">
+            <img src="../Images/close.png" alt="" class="close" onclick="openppt()">
         </div>
 
         <div class="frame">
             <iframe
-                src="https://docs.google.com/presentation/d/1RG_dcnHK3uagzbWPQ2DRRQah25Wlik1gBsvOVsIYx0A/edit#slide=id.p"
+                src="https://docs.google.com/presentation/d/16O8jaJaaqNg_KqALJneqgJCAIY6Weq65fsogvla8zio/edit?usp=sharing"
                 frameborder="0"></iframe>
         </div>
     </div>
@@ -221,7 +234,7 @@
                 <img src="../Images/Calculator.png" alt="">
                 <h6>Cyber Calculator</h6>
             </div>
-            <img src="../Images/close.png" alt="" class="close">
+            <img src="../Images/close.png" alt="" class="close" onclick="opencalci()">
         </div>
 
         <div class="frame">
