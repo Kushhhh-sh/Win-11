@@ -118,4 +118,14 @@ function opencalci() {
     tbcalci.style.display = "none";
   }
 }
+
+function opencredit() {
+  var creditframe = document.getElementById("creditframe");
+
+  if (creditframe.style.display == "none") {
+    creditframe.style.display = "inline";
+  } else {
+    creditframe.style.display = "none";
+  }
+}
 //********************IFRAME VISIBILITY JS********************

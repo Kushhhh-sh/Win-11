@@ -168,6 +168,9 @@ body {
 .powerpoint {
   padding-left: 2px;
 }
+.shutdown{
+  height: 45px;
+}
 /* *****************DESKTOP ICONS CSS END***************** */
 
 /* *******************IFRAME CSS START******************* */
@@ -262,6 +265,15 @@ body {
   position: absolute;
   top: 120px;
   left: 530px;
+  display: none;
+}
+#creditframe {
+  position: absolute;
+  top: 0px;
+  left: 150px;
+  min-width: 1140px;
+  width: 1258px;
+  height: 675px;
   display: none;
 }
 /* *********************CSS FOR APP FRAMES END********************* */

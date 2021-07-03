@@ -43,8 +43,8 @@
             data-bs-placement="right" onclick="openpaint()">
         <p class="iconname  paint">Paint</p>
         <!-- *************************CREDITS************************* -->
-        <a href="../Credits/index.html" target="_blank"><img src="../Images/puzzle.png" class="col1" draggable="false"
-                title="Contributors" data-bs-toggle="tooltip" data-bs-placement="right"></a>
+        <img src="../Images/puzzle.png" class="col1" draggable="false" title="Contributors" data-bs-toggle="tooltip"
+            data-bs-placement="right" onclick="opencredit()">
         <p class="iconname  credits">Credits</p>
     </div>
     <div class="divicons2">
@@ -64,6 +64,10 @@
         <img src="../Images/Calculator.png" class="col2" draggable="false" title="Calculator" data-bs-toggle="tooltip"
             data-bs-placement="right" onclick="opencalci()">
         <p class="iconname powerpoint">Calculator</p>
+        <!-- *************************SHUT DOWN************************* -->
+        <img src="../Images/shutdown.png" class="col2 shutdown" draggable="false" title="Shut Down" data-bs-toggle="tooltip"
+            data-bs-placement="right">
+        <p class="iconname powerpoint">Shut Down</p>
     </div>
     <!-- ************************DESKTOP ICONS************************ -->
 
@@ -97,11 +101,11 @@
         <img src="../Images/notepad.png" alt="" class="icon" draggable="false" title="Notepad" data-bs-toggle="tooltip"
             data-bs-placement="top" id="tb-note" onclick="opennote()">
 
-        <img src="../Images/ms_paint.png" alt="" class="icon" draggable="false" title="MS Paint" data-bs-toggle="tooltip"
-            data-bs-placement="top" id="tb-paint" onclick="openpaint()">
+        <img src="../Images/ms_paint.png" alt="" class="icon" draggable="false" title="MS Paint"
+            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-paint" onclick="openpaint()">
 
-        <img src="../Images/ms_word.png" alt="" class="icon" draggable="false" title="MS Word"
-            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-word" onclick="openword()">
+        <img src="../Images/ms_word.png" alt="" class="icon" draggable="false" title="MS Word" data-bs-toggle="tooltip"
+            data-bs-placement="top" id="tb-word" onclick="openword()">
 
         <img src="../Images/ms_excel.png" alt="" class="icon" draggable="false" title="MS Excel"
             data-bs-toggle="tooltip" data-bs-placement="top" id="tb-excel" onclick="openexcel()">
@@ -203,7 +207,8 @@
         </div>
 
         <div class="frame">
-            <iframe src="https://docs.google.com/spreadsheets/d/1ixdxXiVFnPWDCyvK9sSS4pY6P43mn7RMMoDMqO94MLA/edit?usp=sharing"
+            <iframe
+                src="https://docs.google.com/spreadsheets/d/1ixdxXiVFnPWDCyvK9sSS4pY6P43mn7RMMoDMqO94MLA/edit?usp=sharing"
                 frameborder="0"></iframe>
         </div>
     </div>
@@ -242,6 +247,22 @@
         </div>
     </div>
     <!-- *****************CALCULATOR IFRAME***************** -->
+
+    <!-- *****************Credits IFRAME***************** -->
+    <div class="resizable" id="creditframe">
+        <div class="titlebar">
+            <div class="name">
+                <img src="../Images/puzzle.png" alt="">
+                <h6>Contributors</h6>
+            </div>
+            <img src="../Images/close.png" alt="" class="close" onclick="opencredit()">
+        </div>
+
+        <div class="frame">
+            <iframe src="../DesktopCredits/index.html" frameborder="0"></iframe>
+        </div>
+    </div>
+    <!-- *****************Credits IFRAME***************** -->
 
 </body>
 
