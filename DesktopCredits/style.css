@@ -11,16 +11,16 @@
                             supported by Chrome and Opera */    
 }
 h1{
-    background: #ffffff00 none repeat scroll 0 0;
     color: white;
     font-weight: 600;
     font-size: 60px;
     /* margin: 2rem 3rem 0; */
-    mix-blend-mode: overlay;
     padding: 5px 15px;
     text-align: center;
 }
 body{
+    background: url("Background.jpg");
+    background-size: cover;
     height: 100vh;
     overflow: hidden;
 }
