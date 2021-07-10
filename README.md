@@ -4,6 +4,7 @@ The all new Windows 11 on your web browser
 
 
 
-https://user-images.githubusercontent.com/83411262/125159254-fb731f00-e193-11eb-9b66-925849fe903f.mp4
+![Loading](https://user-images.githubusercontent.com/83411262/125159383-b0a5d700-e194-11eb-942a-d305a6586026.gif)
+
 
 
