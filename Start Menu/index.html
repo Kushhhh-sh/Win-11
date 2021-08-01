@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">    
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Windows 11 Start Menu</title>
+</head>
+<body>
+    <!-- **********************STARTMENU********************** -->
+    <div class="start" >
+        <!-- Div Size = 630 x 653 -->
+        <!-- <img src="../Images/startmenu.PNG" alt="" draggable="false"> -->
+        <div class="searchbar">   <!--margin-->
+            <input id="searchbar-input" type="text" size="70" placeholder="Type Here To Search" onclick="searchbar()">
+        </div>
+        <div class="start-pinned">
+            <div class="pinned-header">
+                <h6>Pinned</h6>
+                <button>All Apps ></button>
+            </div>
+            <div class="pinnedapps">
+                <div class="app">
+                    <button><img src="Images/thispcicon.svg" id="thispcstart" draggable="false">
+                    <p class="iconname-start">This PC</p></button>
+                                    
+                </div>
+                <div class="app">
+                    <button>
+                        <img src="Images/Calculator.svg" id="calcistart" draggable="false">
+                    <p class="iconname-start">Calculator</p>
+                    </button>
+                                    
+                </div>
+                <div class="app">
+                    <button>
+                        <img src="Images/chromeicon.svg" id="chromestart" draggable="false">
+                    <p class="iconname-start">Chrome</p>
+                    </button>
+                                    
+                </div>
+                <div class="app">
+                    <button><img src="Images/edgeicon.svg" id="edgestart" draggable="false" onclick="openedge()">
+                    <p class="iconname-start">Edge</p></button>                
+                </div>
+                <div class="app">
+                    <button>
+                        <img src="Images/ms_excel.svg" id="excelstart" draggable="false">
+                    <p class="iconname-start">Excel</p> 
+                    </button>
+                                   
+                </div>
+                <div class="app">
+                    <button>
+                        <img src="Images/ms_powerpoint.svg" id="pptstart" draggable="false">
+                    <p class="iconname-start">Powerpoint</p>
+                    </button>
+                                    
+                </div>
+                <div class="app">
+                    <button>
+                        <img src="Images/ms_word.svg" id="wordstart" draggable="false">
+                    <p class="iconname-start">Word</p>  
+                    </button>
+                                  
+                </div>
+                <div class="app">
+                    <button><img src="Images/notepad.svg" id="notepadstart" draggable="false">
+                    <p class="iconname-start">Notepad</p></button>
+                                    
+                </div>
+                <div class="app">
+                    <button><img src="Images/vscode.svg" id="vscodestart" draggable="false">
+                    <p class="iconname-start">VS Code</p></button>
+                                    
+                </div>
+                <div class="app">
+                    <button><img src="Images/ms_paint.png" id="paintstart" draggable="false">
+                    <p class="iconname-start">Paint</p></button>
+                                    
+                </div>
+                <div class="app">
+                    <button><img src="Images/calender.svg" id="calendarstart" draggable="false">
+                    <p class="iconname-start">Calendar</p></button>
+                                    
+                </div>
+                <div class="app">
+                    <button><img src="Images/clock.svg" id="vscodestart" draggable="false">
+                    <p class="iconname-start">Clock</p></button>
+                                    
+                </div>
+            </div>
+
+
+        </div>
+        <div class="start-recommended">
+            <div class="recommended-header">
+                <h6>Recommended</h6>
+                <button>More ></button>
+            </div>
+            <div class="recommendedapps">
+                <div class="app">
+                    <img src="Images/thispcicon.svg" draggable="false">
+                    <p class="iconname-start">This PC</p>                
+                </div>
+                <div class="app">
+                    <img src="Images/Calculator.svg" draggable="false">
+                    <p class="iconname-start">Calculator</p>                
+                </div>
+                <div class="app">
+                    <img src="Images/chromeicon.svg" draggable="false">
+                    <p class="iconname-start">Chrome</p>                
+                </div>
+                <div class="app">
+                    <img src="Images/edgeicon.svg" draggable="false">
+                    <p class="iconname-start">Edge</p>                
+                </div>
+                <div class="app">
+                    <img src="Images/ms_excel.svg" draggable="false">
+                    <p class="iconname-start">Excel</p>                
+                </div>
+                <div class="app">
+                    <img src="Images/ms_powerpoint.svg" draggable="false">
+                    <p class="iconname-start">Powerpoint</p>                
+                </div>
+                <div class="app">
+                    <img src="Images/ms_word.svg" draggable="false">
+                    <p class="iconname-start">Word</p>                
+                </div>
+                <div class="app">
+                    <img src="Images/notepad.svg" draggable="false">
+                    <p class="iconname-start">Notepad</p>                
+                </div>
+                <div class="app">
+                    <img src="Images/vscode.svg" draggable="false">
+                    <p class="iconname-start">VS Code</p>                
+                </div>
+            </div>
+
+        </div>
+        <div class="footer">
+
+            <!-- <img align="left" src="https://img.icons8.com/material-rounded/30/000000/user.png"/> -->
+            <h5>Username</h5>
+            <!-- <img align="right" src="../Images/shutdown.svg" alt=""> -->
+
+        </div>
+
+    </div>
+    <!-- **********************STARTMENU********************** -->
+</body>
+<script src="script.js"></script>
+</html>
