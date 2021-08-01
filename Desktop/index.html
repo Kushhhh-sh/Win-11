@@ -66,8 +66,8 @@
         <p class="iconname powerpoint">Calculator</p>
         <!-- *************************SHUT DOWN************************* -->
         <a href="../Shut down/index.html">
-            <img src="../Images/shutdown.png" class="col2 shutdown" draggable="false" title="Shut Down" data-bs-toggle="tooltip"
-            data-bs-placement="right"></a>
+            <img src="../Images/shutdown.png" class="col2 shutdown" draggable="false" title="Shut Down"
+                data-bs-toggle="tooltip" data-bs-placement="right"></a>
         <p class="iconname powerpoint">Shut Down</p>
     </div>
     <!-- ************************DESKTOP ICONS************************ -->
@@ -76,45 +76,62 @@
 
     <!-- ***************************TASKBAR*************************** -->
     <div class="taskbar">
-        <img src="../Images/start_icon.png" alt="" class="start_icon" draggable="false" title="Start"
-            data-bs-toggle="tooltip" data-bs-placement="top">
+        <div class="taskbar_icons">
+            <img src="../Images/start_icon.png" alt="" class="start_icon" draggable="false" title="Start"
+                data-bs-toggle="tooltip" data-bs-placement="top">
 
-        <img src="../Images/search_icon.png" alt="" class="icon" draggable="false" title="Search"
-            data-bs-toggle="tooltip" data-bs-placement="top">
+            <img src="../Images/search_icon.png" alt="" class="icon" draggable="false" title="Search"
+                data-bs-toggle="tooltip" data-bs-placement="top">
 
-        <img src="../Images/icon_3.png" alt="" class="icon" draggable="false">
+            <img src="../Images/icon_3.png" alt="" class="icon" draggable="false">
 
-        <img src="../Images/taskview_icon.png" alt="" class="icon" draggable="false" title="Taskview"
-            data-bs-toggle="tooltip" data-bs-placement="top">
+            <img src="../Images/taskview_icon.png" alt="" class="icon" draggable="false" title="Taskview"
+                data-bs-toggle="tooltip" data-bs-placement="top">
 
-        <img src="../Images/ms_edge_icon.png" alt="" class="icon" draggable="false" title="Microsoft Edge"
-            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-edge" onclick="openedge()">
+            <img src="../Images/ms_edge_icon.png" alt="" class="icon" draggable="false" title="Microsoft Edge"
+                data-bs-toggle="tooltip" data-bs-placement="top" id="tb-edge" onclick="openedge()">
 
-        <img src="../Images/vs_code_icon.png" alt="" class="icon" draggable="false" title="VS Code"
-            data-bs-toggle="tooltip" data-bs-placement="top">
+            <img src="../Images/vs_code_icon.png" alt="" class="icon" draggable="false" title="VS Code"
+                data-bs-toggle="tooltip" data-bs-placement="top">
 
-        <img src="../Images/ms_store_icon.png" alt="" class="icon" draggable="false" title="Microsoft Store"
-            data-bs-toggle="tooltip" data-bs-placement="top">
+            <img src="../Images/ms_store_icon.png" alt="" class="icon" draggable="false" title="Microsoft Store"
+                data-bs-toggle="tooltip" data-bs-placement="top">
 
-        <img src="../Images/Calculator.svg" alt="" class="icon" draggable="false" title="Calculator"
-            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-calci" onclick="opencalci()">
+            <img src="../Images/Calculator.svg" alt="" class="icon" draggable="false" title="Calculator"
+                data-bs-toggle="tooltip" data-bs-placement="top" id="tb-calci" onclick="opencalci()">
 
-        <img src="../Images/notepad.svg" alt="" class="icon" draggable="false" title="Notepad" data-bs-toggle="tooltip"
-            data-bs-placement="top" id="tb-note" onclick="opennote()">
+            <img src="../Images/notepad.svg" alt="" class="icon" draggable="false" title="Notepad"
+                data-bs-toggle="tooltip" data-bs-placement="top" id="tb-note" onclick="opennote()">
 
-        <img src="../Images/ms_paint.png" alt="" class="icon" draggable="false" title="MS Paint"
-            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-paint" onclick="openpaint()">
+            <img src="../Images/ms_paint.png" alt="" class="icon" draggable="false" title="MS Paint"
+                data-bs-toggle="tooltip" data-bs-placement="top" id="tb-paint" onclick="openpaint()">
 
-        <img src="../Images/ms_word.svg" alt="" class="icon" draggable="false" title="MS Word" data-bs-toggle="tooltip"
-            data-bs-placement="top" id="tb-word" onclick="openword()">
+            <img src="../Images/ms_word.svg" alt="" class="icon" draggable="false" title="MS Word"
+                data-bs-toggle="tooltip" data-bs-placement="top" id="tb-word" onclick="openword()">
 
-        <img src="../Images/ms_excel.svg" alt="" class="icon" draggable="false" title="MS Excel"
-            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-excel" onclick="openexcel()">
+            <img src="../Images/ms_excel.svg" alt="" class="icon" draggable="false" title="MS Excel"
+                data-bs-toggle="tooltip" data-bs-placement="top" id="tb-excel" onclick="openexcel()">
 
-        <img src="../Images/ms_powerpoint.svg" alt="" class="icon" draggable="false" title="MS PowerPoint"
-            data-bs-toggle="tooltip" data-bs-placement="top" id="tb-ppt" onclick="openppt()">
+            <img src="../Images/ms_powerpoint.svg" alt="" class="icon" draggable="false" title="MS PowerPoint"
+                data-bs-toggle="tooltip" data-bs-placement="top" id="tb-ppt" onclick="openppt()">
+        </div>
+        <div class="taskbar_right">
+            <!-- <img class="time" src="../Images/taskbarright.PNG" alt="" draggable="false"> -->
+            <img src="../Images/up.svg" alt="" draggable="false">
+            <img src="../Images/microphone.svg" alt="" draggable="false" style="width: 20px; height: 20px;">
+            <div class="taskbar_actioncenter">
+                <img src="../Images/wifi.svg" alt="" draggable="false">
+                <img src="../Images/speaker.svg" alt="" draggable="false">
+                <img src="../Images/batteryFull.svg" alt="" draggable="false">
+            </div>
+            <div class="taskbar_date_and_time">
+                <span>00:00</span>
+                <span>00 Jan 0000</span>
+            </div>
+            <img src="../Images/focusAssist.svg" alt="" draggable="false">
+        </div>
 
-        <img class="time" src="../Images/taskbarright.PNG" alt="" draggable="false">
+
     </div>
     <!-- ***************************TASKBAR*************************** -->
 
