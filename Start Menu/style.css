@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Roboto;
+    /* DISABLING SELECTION */
+    -webkit-touch-callout: none; /*iOS Safari*/
+    -webkit-user-select: none; /*Safari*/
+    -khtml-user-select: none; /*Konqueror HTML*/
+    -moz-user-select: none; /*Firefox*/
+    -ms-user-select: none; /*Internet Explorer/Edge*/
+    user-select: none; /* Non-prefixed version, currently 
+                              supported by Chrome and Opera */
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+background-color: rgb(14, 13, 13);
+}
+
+/* ***********************STARTMENU CSS START*********************** */
+.start {
+    background-color: #b8b4b4;
+    position: absolute;
+    bottom: 20px;
+    left: 30%;
+    text-align: center;
+    /* transition: all 0.3s ease-in; */
+    height: 653px;
+    width: 630px;
+    border-radius: 8px;
+  }
+  
+  .pinned-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .recommended-header {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  .pinned-header h6 {
+    margin: 20px 0 0 45px;
+    font-weight: 900;
+  }
+
+  .recommended-header h6 {
+    margin: 0 0 0 45px;
+    font-weight: 900;
+  }
+  
+  .pinned-header button {
+    background-color: #fff;    
+    margin: 20px 45px 0 0;
+    border-style: none;
+    border-radius: 3px;
+    width: 74px;
+  }
+
+  .recommended-header button {
+    background-color: #fff;    
+    margin: 20px 45px 0 0;
+    margin-top: 0px;
+    border-style: none;
+    border-radius: 3px;
+    width: 53px;
+  }
+  .start .searchbar{
+    margin-top: 25px;
+  }
+  .start .searchbar input{
+    height: 35px;
+    border-radius: 4px;
+    border-style: none;
+    padding-left: 5px;
+    box-sizing: border-box;
+    border-bottom: 3px solid blue;
+  }
+
+
+
+  /* .start-pinned {
+    height: 3
+  } */
+
+  .pinnedapps {
+    height: 225px;
+    width: 620px;
+  /*   padding: 10px 10px 10px;
+    margin: 0 5px 0;
+    display: grid; */
+    
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr); */
+    /* justify-items: center; */
+    padding: 20px 30px;
+    padding-bottom: 0px;
+    align-items: end;
+    /* grid-gap: 5px; */
+    
+  }
+  
+  .pinnedapps button {
+    border-style: none;
+    background: none;
+    /* margin-right: 30px; */
+  }
+  .pinnedapps button:hover {
+    border-style: none;
+    background: none;
+    /* background-color: rgb(236, 236, 236); */
+    transform: translateY(-5px);
+  }
+
+  .recommendedapps {
+    height: 225px;
+    width: 620px;
+  /*   padding: 10px 10px 10px;
+    margin: 0 5px 0;
+    display: grid; */
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    padding: 20px 30px;
+    align-items: end;
+    grid-gap: 5px;
+  }
+
+  .app {
+    text-align: center;
+    /* font: status-bar; */
+    width: 87px;
+    /* cursor: pointer; */
+    margin: 5px 0px 0px  0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  img {
+    height: 40px;
+    width: 45px;
+  }
+
+  hr {
+    margin-bottom: 2px;
+    background-color: black;
+  }
+    
+  .footer {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    /* margin-top: 20px; */
+    background-color: #7c7c7c;
+    height: 65px;
+  }
+
+  .footer h5 {
+    width: 20%;
+    height: 50%;
+    left: 10px;
+    bottom: 0;
+    /* position: fixed; */
+    
+  }
+
+  /* **************************STARTMENU CSS END************************** */
+  
