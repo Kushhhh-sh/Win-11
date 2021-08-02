@@ -164,6 +164,9 @@ background-color: rgb(14, 13, 13);
     /* margin-top: 20px; */
     background-color: #7c7c7c;
     height: 65px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
   }
 
   .footer h5 {
