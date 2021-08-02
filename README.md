@@ -10,7 +10,7 @@ Don't Worry. We are bringing the all new **Windows 11** to the convenience of yo
 
 <h2>Here Is a Glance</h2>
 
-![Win-11-Start Page](https://user-images.githubusercontent.com/80830020/127816617-03b52585-8c0a-4c15-93a1-b344ecfd86b9.gif)
+<img src="README Assets/Win-11-Start Page.gif">
 
 
 # Experience All the fun @ https://kushhhh-sh.github.io/Win-11/
