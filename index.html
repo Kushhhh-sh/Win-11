@@ -8,14 +8,6 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
     />
     <link rel="stylesheet" href="./style.css" />
-    <script type="text/javascript">
-      function redirectpage() {
-        window.location = "src/Boot Animation/index.html";
-      }
-      function redirect() {
-        setTimeout(redirectpage, 1500);
-      }
-    </script>
   </head>
   <body>
     <!-- partial:index.partial.html -->
@@ -51,4 +43,26 @@
       </symbol>
     </svg>
   </body>
+  <script type="text/javascript">
+    function redirectpage() {
+      fullScreen();
+      window.location = "src/Boot Animation/index.html";
+    }
+    function redirect() {
+      setTimeout(redirectpage, 1500);
+    }
+    // function to fullscreen the document
+    function fullScreen() {
+      let elem = document.documentElement;
+      if (elem.requestFullscreen) {
+        elem.requestFullscreen();
+      } else if (elem.webkitRequestFullscreen) {
+        /* Safari */
+        elem.webkitRequestFullscreen();
+      } else if (elem.msRequestFullscreen) {
+        /* IE11 */
+        elem.msRequestFullscreen();
+      }
+    }
+  </script>
 </html>
