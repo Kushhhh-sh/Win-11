@@ -4,6 +4,8 @@
 
 # Windows 11 
 
+[![Join the chat at https://gitter.im/Win-11-By-Kush/community](https://badges.gitter.im/Win-11-By-Kush/community.svg)](https://gitter.im/Win-11-By-Kush/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Your PC can support Windows 11, right? Ermmm.. **Or Probably Not**
 
 Don't Worry. We are bringing the all new **Windows 11** to the convenience of your web browser.
