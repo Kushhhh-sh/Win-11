@@ -275,6 +275,7 @@ function reset_month() {
 // JAVASCRIPT FOR TIME
 setInterval(() => {
   const time = document.querySelector("#time");
+  const tbtime = document.querySelector("#taskbar_time")
   let date_time = new Date();
   let hours = date_time.getHours();
   let minutes = date_time.getMinutes();
@@ -294,9 +295,11 @@ setInterval(() => {
     seconds = "0" + seconds;
   }
   time.textContent = hours + ":" + minutes + ":" + seconds;
+  tbtime.textContent = hours + ":" + minutes;
 
   //DATE
   let date = document.querySelector("#date");
+  let tbdate = document.querySelector("#taskbar_date")
 
   let months = new Array();
   months[0] = "Jan";
@@ -317,6 +320,11 @@ setInterval(() => {
   let year_no = date_time.getFullYear();
 
   date.textContent = date_no + " " + month_no + " " + year_no;
+  tbdate.textContent = date_no + " " + month_no + " " + year_no;
 });
 
 //********************CALENDAR JS********************
+
+//******************TASKBAR DATE AND TIME***************** */
+
+//******************TASKBAR DATE AND TIME***************** */
