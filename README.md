@@ -1,10 +1,10 @@
- ![Issues](https://img.shields.io/github/issues/Kushhhh-sh/Win-11) ![Forks](https://img.shields.io/github/forks/Kushhhh-sh/Win-11) ![Starts](https://img.shields.io/github/stars/Kushhhh-sh/Win-11) ![Licence](https://img.shields.io/github/license/Kushhhh-sh/Win-11)
+ 
+[![Join the chat at https://gitter.im/Win-11-By-Kush/community](https://badges.gitter.im/Win-11-By-Kush/community.svg)](https://gitter.im/Win-11-By-Kush/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) ![Issues](https://img.shields.io/github/issues/Kushhhh-sh/Win-11) ![Forks](https://img.shields.io/github/forks/Kushhhh-sh/Win-11) ![Starts](https://img.shields.io/github/stars/Kushhhh-sh/Win-11) ![Licence](https://img.shields.io/github/license/Kushhhh-sh/Win-11)
 
 
 
 # Windows 11 
 
-[![Join the chat at https://gitter.im/Win-11-By-Kush/community](https://badges.gitter.im/Win-11-By-Kush/community.svg)](https://gitter.im/Win-11-By-Kush/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 Your PC can support Windows 11, right? Ermmm.. **Or Probably Not**
 
