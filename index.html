@@ -1,68 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Power on</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <!-- partial:index.partial.html -->
-    <div class="power-switch" onclick="redirect()">
-      <input type="checkbox" />
-      <div class="button">
-        <svg class="power-off">
-          <use xlink:href="#line" class="line" />
-          <use xlink:href="#circle" class="circle" />
-        </svg>
-        <svg class="power-on">
-          <use xlink:href="#line" class="line" />
-          <use xlink:href="#circle" class="circle" />
-        </svg>
-      </div>
-    </div>
-
-    <!-- SVG -->
-    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
-      <symbol
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 150 150"
-        id="line"
-      >
-        <line x1="75" y1="34" x2="75" y2="58" />
-      </symbol>
-      <symbol
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 150 150"
-        id="circle"
-      >
-        <circle cx="75" cy="80" r="35" />
-      </symbol>
-    </svg>
-  </body>
-  <script type="text/javascript">
-    function redirectpage() {
-      fullScreen();
-      window.location = "src/Boot Animation/index.html";
-    }
-    function redirect() {
-      setTimeout(redirectpage, 1500);
-    }
-    // function to fullscreen the document
-    function fullScreen() {
-      let elem = document.documentElement;
-      if (elem.requestFullscreen) {
-        elem.requestFullscreen();
-      } else if (elem.webkitRequestFullscreen) {
-        /* Safari */
-        elem.webkitRequestFullscreen();
-      } else if (elem.msRequestFullscreen) {
-        /* IE11 */
-        elem.msRequestFullscreen();
-      }
-    }
-  </script>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="src/Boot Animation/Background.png" size="192x192" type="png/image">
+    <title>Windows 11</title>
+    <style>
+        html, body{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            width: 100%;
+            height: 100vh;
+            overflow: hidden;
+        }
+        .main{
+            width: 100%;
+            height: 100%;
+           
+        }
+    </style>
+</head>
+<body>
+    <iframe src="src/Power on/index.html" frameborder="0" class="main"></iframe>
+</body>
 </html>
