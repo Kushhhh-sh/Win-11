@@ -2,68 +2,53 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="icon" href="Background.png" sizes="192x192" type="image/png" />
+    <title>Power on</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
     <script type="text/javascript">
       function redirectpage() {
-        window.location = "src/Login/index.html";
+        window.location = "src/Boot Animation/index.html";
       }
-      setTimeout(redirectpage, 7000);
+      function redirect() {
+        setTimeout(redirectpage, 1500);
+      }
     </script>
-    <style>
-      body {
-        font-family: Roboto;
-        background-color: black;
-      }
-      .loading {
-        height: 35vh;
-        display: flex;
-        align-items: flex-end;
-        justify-content: center;
-      }
-      .logo {
-        display: flex;
-        height: 50vh;
-        justify-content: center;
-        align-items: center;
-      }
-      p {
-        color: #fff;
-        font-weight: 600;
-        font-size: 25px;
-        font-family: Segoe UI;
-        /* DISABLING SELECTION */
-        -webkit-touch-callout: none; /*iOS Safari*/
-        -webkit-user-select: none; /*Safari*/
-        -khtml-user-select: none; /*Konqueror HTML*/
-        -moz-user-select: none; /*Firefox*/
-        -ms-user-select: none; /*Internet Explorer/Edge*/
-        user-select: none; /* Non-prefixed version, currently 
-                              supported by Chrome and Opera */
-      }
-    </style>
-    <title>Loading...</title>
   </head>
   <body>
-    <div class="logo">
-      <img src="Background.png" alt="" width="10%" height="40%" />
+    <!-- partial:index.partial.html -->
+    <div class="power-switch" onclick="redirect()">
+      <input type="checkbox" />
+      <div class="button">
+        <svg class="power-off">
+          <use xlink:href="#line" class="line" />
+          <use xlink:href="#circle" class="circle" />
+        </svg>
+        <svg class="power-on">
+          <use xlink:href="#line" class="line" />
+          <use xlink:href="#circle" class="circle" />
+        </svg>
+      </div>
     </div>
-    <div class="loading">
-      <img src="tenor.gif" alt="" width="10%" height="26%" /><br><br><br>
-      
-    </div>
-    <p align="center">Please Wait</p>
+
+    <!-- SVG -->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none">
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 150 150"
+        id="line"
+      >
+        <line x1="75" y1="34" x2="75" y2="58" />
+      </symbol>
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 150 150"
+        id="circle"
+      >
+        <circle cx="75" cy="80" r="35" />
+      </symbol>
+    </svg>
   </body>
-  <!-- <script>
-    window.onload = function () {
-      var el = document.documentElement,
-        rfs =
-          el.requestFullScreen ||
-          el.webkitRequestFullScreen ||
-          el.mozRequestFullScreen;
-      rfs.call(el);
-    };
-  </script> -->
 </html>
