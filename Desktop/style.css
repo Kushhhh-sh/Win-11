@@ -111,11 +111,16 @@ body {
 /* **************************STARTMENU CSS END************************** */
 
 /* *******************DESKTOP ICONS CSS START******************* */
+
 .divicons1 {
   height: 90%;
   width: 7%;
   display: inline-block;
   color: rgb(34, 63, 63);
+}
+
+.divicons1 img:hover{
+  transform: translateY(-5px);
 }
 .divicons2 {
   position: absolute;
@@ -124,6 +129,9 @@ body {
   width: 6%;
   display: inline-block;
   color: rgb(34, 63, 63);
+}
+.divicons2 img:hover{
+  transform: translateY(-5px);
 }
 .divicons1 img {
   cursor: pointer;

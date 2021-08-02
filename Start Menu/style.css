@@ -23,6 +23,7 @@ background-color: rgb(14, 13, 13);
 /* ***********************STARTMENU CSS START*********************** */
 .start {
     background-color: #b8b4b4;
+    /* backdrop-filter: blur(10px); */
     position: absolute;
     bottom: 20px;
     left: 30%;
@@ -117,6 +118,7 @@ background-color: rgb(14, 13, 13);
     background: none;
     /* background-color: rgb(236, 236, 236); */
     transform: translateY(-5px);
+    /* transform: translate(5px, -5px); */
   }
 
   .recommendedapps {
