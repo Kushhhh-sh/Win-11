@@ -6,13 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="icon" href="Background.png" sizes="192x192" type="image/png" />
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
       function redirectpage() {
         window.location = "../Login/index.html";
       }
       setTimeout(redirectpage, 5000);
-    </script>
+    </script> -->
     <style>
+      *{
+        /* DISABLING SELECTION */
+        -webkit-touch-callout: none; /*iOS Safari*/
+        -webkit-user-select: none; /*Safari*/
+        -khtml-user-select: none; /*Konqueror HTML*/
+        -moz-user-select: none; /*Firefox*/
+        -ms-user-select: none; /*Internet Explorer/Edge*/
+        user-select: none; /* Non-prefixed version, currently 
+                              supported by Chrome and Opera */
+      }
       body {
         font-family: Roboto;
         background-color: black;
@@ -20,8 +30,9 @@
       .loading {
         height: 35vh;
         display: flex;
-        align-items: flex-end;
-        justify-content: center;
+        flex-direction: column;
+        align-items:center;
+        justify-content: flex-end;
       }
       .logo {
         display: flex;
@@ -34,27 +45,20 @@
         font-weight: 600;
         font-size: 25px;
         font-family: Segoe UI;
-        /* DISABLING SELECTION */
-        -webkit-touch-callout: none; /*iOS Safari*/
-        -webkit-user-select: none; /*Safari*/
-        -khtml-user-select: none; /*Konqueror HTML*/
-        -moz-user-select: none; /*Firefox*/
-        -ms-user-select: none; /*Internet Explorer/Edge*/
-        user-select: none; /* Non-prefixed version, currently 
-                              supported by Chrome and Opera */
+        
       }
     </style>
     <title>Loading...</title>
   </head>
   <body>
     <div class="logo">
-      <img src="Background.png" alt="" width="10%" height="40%" />
+      <img src="Background.png" alt="" width="10%" height="35%" draggable="false"/>
     </div>
     <div class="loading">
-      <img src="tenor.gif" alt="" width="10%" height="26%" /><br><br><br>
-      
+      <img src="tenor.gif" alt="" width="10%" height="26%" draggable="false"/>
+      <p align="center" draggable="false">Please Wait</p>
     </div>
-    <p align="center">Please Wait</p>
+
   </body>
   <!-- <script>
     window.onload = function () {
