@@ -3,6 +3,10 @@
 *::after,
 *::before {
   box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+   -ms-user-select: none;
+       user-select: none;
 }
 
 * {
@@ -22,7 +26,7 @@ body #start-screen {
   justify-content: flex-end;
   width: 100%;
   height: 100vh;
-  background: url("img28.jpg") center center/cover no-repeat;
+  background: url("../Images/img28.jpg") center center/cover no-repeat;
 }
 body #start-screen #clock {
   align-self: flex-start;
@@ -44,10 +48,6 @@ body #start-screen #date {
   font-size: 2.5rem;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
 }
 body #login-screen {
   position: absolute;
@@ -65,7 +65,7 @@ body #login-screen .user-pic {
   width: 200px;
   height: 200px;
   border-radius: 50%;
-  background: url("user.svg") center center/cover no-repeat;
+  background: url("../Images/user.svg") center center/cover no-repeat;
 }
 body #login-screen .user-name {
   color: white;
@@ -76,4 +76,20 @@ body #login-screen #pass-input {
   width: 250px;
   font-size: 1.4rem;
   outline: 2px solid gray;
+}
+
+body #login-screen #signin{
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  background-color: grey;
+  color: azure;
+  cursor: pointer;
+  /* backdrop-filter: blur(20px); */
+}
+
+body #login-screen #signin:hover{
+  border: 3px solid white;
+}
+a{
+  text-decoration: none;
 }

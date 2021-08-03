@@ -4,8 +4,9 @@ let startScreen = document.querySelector("#start-screen");
 let clockDiv = document.querySelector("#clock");
 let dateDiv = document.querySelector("#date");
 let datentime = document.querySelector("#date_and_time");
+let pass = document.querySelector("#pass-input");
+let signin = document.querySelector("#signin");
 let logInScreen = document.querySelector("#login-screen");
-
 
 // *********************DATE AND TIME*********************
 function clock() {
@@ -71,3 +72,19 @@ function showLogIn() {
 }
 
 // *********************ONCLICK TRANSITION*********************
+
+// *******************DISABLING RIGHT CLICK*******************
+
+document.addEventListener("contextmenu", (e) => {
+  e.preventDefault();
+});
+
+// *******************DISABLING RIGHT CLICK*******************
+
+// *******************TRIGGERING SIGN IN BUTTON WITH ENTER KEY*******************
+pass.addEventListener("keyup", (e) => {
+  if(e.keyCode === 13){
+    signin.click();
+  }
+});
+// *******************TRIGGERING SIGN IN BUTTON WITH ENTER KEY*******************
