@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+body #start-screen {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 100%;
+  height: 100vh;
+  background: url("img28.jpg") center center/cover no-repeat;
+}
+body #start-screen #clock {
+  align-self: flex-start;
+  padding-left: 2rem;
+  color: white;
+  font-size: 8rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+body #start-screen #date {
+  align-self: flex-start;
+  padding-left: 40px;
+  padding-bottom: 40px;
+  color: white;
+  font-size: 2.5rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.7);
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+body #login-screen {
+  position: absolute;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  gap: 20px;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  pointer-events: none;
+}
+body #login-screen .user-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: url("user.svg") center center/cover no-repeat;
+}
+body #login-screen .user-name {
+  color: white;
+  font-size: 3rem;
+  font-family: "Roboto", sans-serif;
+}
+body #login-screen #pass-input {
+  width: 250px;
+  font-size: 1.4rem;
+  outline: 2px solid gray;
+}

@@ -1,83 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <link rel="icon" href="../Boot Animation/Background.png" sizes="192x192" type="image/png">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="app.css">
-    <link rel="stylesheet" type="text/css" href="Bootstrap/css/font-awesome.css">
-    <link rel="stylesheet" type="text/css" href="Bootstrap/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="Bootstrap/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <title>Log In</title>
+  <meta charset="UTF-8">
+  <title>CodePen - Windows Lock Screen</title>
+  <link rel="stylesheet" href="./style.css">
+
 </head>
-
 <body>
-    <!-- <div class="main">
-        <div class="row">
-            <div class="col-6 image">
-                <img src="../Images/Profile.png" alt="" style="width: 60%;">
-            </div>
-            <div class="col-6" id="details">
-                <h5>Who is going to use this device?</h5>
-                <div class="mb-3 box">
-                    <label for="formGroupExampleInput" class="form-label">Enter your Name</label>
-                    <input type="text" class="form-control customtext" id="formGroupExampleInput"
-                        placeholder="Username">
-                </div>
+<!-- partial:index.partial.html -->
+<div id="start-screen">
+  <div id="date_and_time">
+      <div id="clock"></div>
+      <div id="date">00 January 0000</div>
+  </div>
 
+</div>
 
-            </div>
-            <div class="col-12">
-                <a href="../../Desktop/index.html"><button class="btn btn-primary" id="Next">Next</button></a>
-            </div>
-        </div>
-    </div> -->
-    
-    
-    
-    
-    
-    <!-- <div class="boot-page">
-        <div class="date-time">
-            <h1>hello</h1>
-        </div>
-    </div>
-     -->
-    <div class="login-page">
-        <div class="login">
-            <div class="user">    
-                <div class="user-image">
-                <img src="../Images/user.svg" alt="" style="width: 212px; height: 212px;">
-                </div><br>
-                <!-- <div class="password">
-                    <input type="number" class="passwordbox" placeholder="Password">
-                </div> -->
-            </div>
+<div id="login-screen">
+  <div class="user-pic"></div>
+  <div class="user-name">Ku$# & Sume</div>
+  <input id="pass-input" type="password" placeholder="PIN">
+</div>
+<!-- partial -->
+  <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script><script  src="./script.js"></script>
 
-            <div class="signin">
-                <a href="../../Desktop/index.html"><button class="btn btn-primary" id="signin-btn">Sign In</button></a>
-            </div>
-        </div>
-    </div>
 </body>
-
-<script> 
-    $("#formGroupExampleInput").keypress(function(event) {
-        if (event.keyCode === 13) {
-            $("#signin-btn").click();
-        }
-    });
-</script>
 </html>
