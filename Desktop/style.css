@@ -36,6 +36,7 @@ body {
     position: absolute;
     bottom: 0;
     width: 100%;
+    height: 45px;
     display: flex;
     justify-content: center;
     background-color: #f3f3f3;
@@ -129,20 +130,6 @@ body {
 
 /* ***********************STARTMENU CSS START*********************** */
 
-body {
-    background-color: rgb(14, 13, 13);
-}
-
-
-/* ***********************STARTMENU CSS START*********************** */
-
-.start {}
-
-
-/* .start img {
-    border-radius: 8px;
-} */
-
 .start {
     background-color: #f3f3f3;
     /* backdrop-filter: blur(10px); */
@@ -154,7 +141,7 @@ body {
     border-radius: 8px;
     bottom: -655px;
     text-align: center;
-    transition: all 0.3s ease-in;
+    transition: all 0.5s ease-in;
 }
 
 .pinned-header {
