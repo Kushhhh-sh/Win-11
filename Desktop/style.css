@@ -315,6 +315,10 @@ hr {
     /* margin: 5px 0 0 10px; */
 }
 
+.footer a {
+    text-decoration: none;
+}
+
 
 /* **************************STARTMENU CSS END************************** */
 
